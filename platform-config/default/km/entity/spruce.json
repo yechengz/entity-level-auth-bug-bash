@@ -1,0 +1,19 @@
+{
+    "$id": "spruce",
+    "$schema": "https://schema.yext.com/config/km/entity/v1",
+    "primaryLocale": "en",
+    "content": {
+        "address": {
+            "city": "Arlington",
+            "countryCode": "VA",
+            "line1": "1101 Wilson Blvd",
+            "postalCode": "22209",
+            "region": "VA"
+          },
+          "slug" : "[[entityId]].html",
+          "c_authAllowedEmails" : [],
+          "name" : "Spruce"
+    },
+    "entityType" : "ce_team",
+    "labels" : []
+}

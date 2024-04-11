@@ -1,0 +1,7 @@
+{
+    "$id": "ce_team",
+    "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+    "description": "A team on Web Publishing",
+    "displayName": "Team",
+    "pluralDisplayName": "Teams"
+  }

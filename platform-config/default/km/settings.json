@@ -61,10 +61,6 @@
       "disabled": false
     },
     {
-      "entityType" : "ce_team",
-      "disabled": false,
-    },
-    {
       "entityType": "financialProfessional",
       "disabled": true
     }

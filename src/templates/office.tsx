@@ -25,13 +25,13 @@ import "../index.css";
  */
 export const config: TemplateConfig = {
   stream: {
-    $id: "my-auth-team-example",
+    $id: "my-auth-location-example",
     // Specifies the exact data that each generated document will contain. This data is passed in
     // directly as props to the default exported function.
-    fields: ["id", "name", "slug", "c_authAllowedEmails", "primaryPhoto", "address"],
+    fields: ["id", "name", "slug", "c_authAllowedEmails", "address"],
     // Defines the scope of entities that qualify for this stream.
     filter: {
-      entityTypes: ["c_team"],
+      entityTypes: ["location"],
     },
     // The entity language profiles that documents will be generated for.
     localization: {

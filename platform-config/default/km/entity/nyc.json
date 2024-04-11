@@ -1,5 +1,5 @@
 {
-    "$id": "aether",
+    "$id": "nyc",
     "$schema": "https://schema.yext.com/config/km/entity/v1",
     "primaryLocale": "en",
     "content": {
@@ -10,10 +10,11 @@
             "postalCode": "10011",
             "region": "NY"
           },
-          "slug" : "[[entityId]].html",
-          "c_authAllowedEmails" : [],
-          "name" : "Aether"
+      "name": "NYC",
+      "c_authAllowedEmails" : [],
+      "slug": "[[entityId]].html",
+      "timezone": "America/New_York"
     },
-    "entityType" : "ce_team",
-    "labels" : []
-}
+    "entityType": "location",
+    "labels": []
+  }

@@ -91,14 +91,14 @@ const Static: Template<TemplateRenderProps> = ({
   // for the site entity, and can be accessed in any template, including static templates.
   const { _site } = document;
 
-  const knownTeams = ["aether", "spruce", "sumo"];
+  const offices = ["nyc", "dc"];
 
   return (
     <>
       <div className="">
-      {knownTeams.map((e) => (
+      {offices.map((e) => (
         <>
-          <a key={e} href={`/${e}`}>
+          <a key={e} href={`/${e}.html`}>
             {e}
           </a>
           <br />

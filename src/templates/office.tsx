@@ -15,10 +15,10 @@ import {
   TemplateConfig,
   TemplateProps,
   TemplateRenderProps,
-
 } from "@yext/pages";
 import * as React from "react";
 import "../index.css";
+import { Address } from "@yext/pages-components";
 
 /**
  * Required when Knowledge Graph Stream is used for a template.
@@ -95,7 +95,7 @@ const EntityPage: Template<TemplateRenderProps> = ({
   return (
     <>
       <h1>{name}</h1>
-      <div>Location: {address}</div>
+      <Address address={address}></Address>
     </>
   );
 };

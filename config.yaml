@@ -12,6 +12,4 @@ livePreviewConfiguration:
 # the authentication policy via the admin console and then specify the policy
 # name here.
 # authentication:
-#  policyName: test-auth0-policy
-#  includePaths:
-#    - /admin/*
+#  policyName: test-yext-auth

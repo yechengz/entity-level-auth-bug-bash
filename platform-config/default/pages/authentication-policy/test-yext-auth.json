@@ -1,0 +1,8 @@
+{
+    "$id": "test-yext-auth",
+    "$schema": "https://schema.yext.com/config/pages/authentication-policy/v1",
+    "name": "test-yext-auth",
+    "authentication": {
+      "yext": true
+    }
+  }

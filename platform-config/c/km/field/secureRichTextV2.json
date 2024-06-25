@@ -1,0 +1,14 @@
+{
+    "$id": "c_secureRichTextV2",
+    "$schema": "https://schema.yext.com/config/km/field/v1",
+    "displayName": "secureFileRichTextV2",
+    "group": "NONE",
+    "localization": "PRIMARY_ONLY",
+    "type": {
+      "richTextV2Type": {
+        "maxLength": 100000,
+        "usePrivateUrls": true
+      }
+    },
+    "typeId": "richTextV2"
+  }

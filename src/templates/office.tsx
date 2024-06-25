@@ -18,7 +18,7 @@ import {
 } from "@yext/pages";
 import * as React from "react";
 import "../index.css";
-import { Address } from "@yext/pages-components";
+import { Address, /* LexicalRichText */ } from "@yext/pages-components";
 
 /**
  * Required when Knowledge Graph Stream is used for a template.
@@ -28,7 +28,7 @@ export const config: TemplateConfig = {
     $id: "my-auth-location-example",
     // Specifies the exact data that each generated document will contain. This data is passed in
     // directly as props to the default exported function.
-    fields: ["id", "name", "slug", "c_authAllowedEmails", "address"],
+    fields: ["id", "name", "slug", "address", /* "c_secureRichTextV2" */, /* "c_authAllowedEmails" */],
     // Defines the scope of entities that qualify for this stream.
     filter: {
       entityTypes: ["location"],
@@ -96,6 +96,7 @@ const EntityPage: Template<TemplateRenderProps> = ({
     <>
       <h1>{name}</h1>
       <Address address={address}></Address>
+      { /* <LexicalRichText serializedAST={JSON.stringify(c_testSecureRichTextField.json)} /> */}
     </>
   );
 };

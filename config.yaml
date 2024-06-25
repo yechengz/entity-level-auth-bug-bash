@@ -11,5 +11,5 @@ livePreviewConfiguration:
 # Authentication can be setup here. First, follow the instructions to create
 # the authentication policy via the admin console and then specify the policy
 # name here.
-# authentication:
-#  policyName: test-yext-auth
+authentication:
+  policyName: test-yext-auth

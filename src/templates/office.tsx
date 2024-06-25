@@ -28,7 +28,7 @@ export const config: TemplateConfig = {
     $id: "my-auth-location-example",
     // Specifies the exact data that each generated document will contain. This data is passed in
     // directly as props to the default exported function.
-    fields: ["id", "name", "slug", "address", /* "c_secureRichTextV2" */, /* "c_authAllowedEmails" */],
+    fields: ["id", "name", "slug", "address", "c_secureRichTextV2", "c_authAllowedEmails"],
     // Defines the scope of entities that qualify for this stream.
     filter: {
       entityTypes: ["location"],

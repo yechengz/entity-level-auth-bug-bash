@@ -90,13 +90,13 @@ const EntityPage: Template<TemplateRenderProps> = ({
   path,
   document,
 }) => {
-  const { name, address, c_testSecureRichTextField } = document;
+  const { name, address, c_secureRichTextV2 } = document;
 
   return (
     <>
       <h1>{name}</h1>
       <Address address={address}></Address>
-      <LexicalRichText serializedAST={JSON.stringify(c_testSecureRichTextField.json)} />
+      <LexicalRichText serializedAST={JSON.stringify(c_secureRichTextV2.json)} />
     </>
   );
 };

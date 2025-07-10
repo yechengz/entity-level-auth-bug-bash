@@ -1,0 +1,13 @@
+{
+  "artifactStructure": {
+    "assets": [
+      {
+        "root": "public"
+      },
+      {
+        "root": "static",
+        "pattern": "*"
+      }
+    ]
+  }
+}
